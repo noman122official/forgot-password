@@ -108,9 +108,19 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.element1 {
+  position: absolute;
+  width: 449.76px;
+  height: 439px;
+  left: 137.4px;
+  top: 992.86px;
+}
+.element2 {
+  position: absolute;
+  width: 251.93px;
+  height: 245.9px;
+  left: 1135.89px;
+  top: 289.88px;
 }
 
 @media (max-width: 600px) {
