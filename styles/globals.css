@@ -1,3 +1,5 @@
+@import url('https://rsms.me/inter/inter.css');
+
 html,
 body {
   padding: 0;
@@ -15,4 +17,362 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.signup-main{
+  position: absolute;
+  
+  display: flex;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+  width: 70%;
+  height: 90%;
+  
+  /* top: 5%; */
+  
+  background: #FFFFFF;
+  border-radius: 20px;
+  /* border: 1px solid black;  */
+  
+}
+
+
+
+
+.image-block{
+  width:45%;
+  height:100%;
+  /* border: 1px solid black; */
+  border-radius: 20px 0px 0 20px;
+  padding: 15px;
+  background: rgba(255, 217, 223, 0.19);
+}
+.signup-block{
+  width:55%;
+  /* height:100%; */
+  /* border: 1px solid black; */
+  background: #FFFFFF;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skilzenlogo{
+  
+  overflow: auto;
+  
+  
+
+}
+.signupImage{
+
+display: flex;
+height: 90%;
+align-items: end;
+justify-content: center;
+}
+
+.toptext{
+  margin: 10px;
+}
+.student-register{
+  border: 2px solid #F26A7E;
+  border-radius: 10px;
+  height: 33%;
+  width: 70%;
+  margin: 10px;
+  display: flex;
+  padding-top:10%;
+  /* justify-content: center; */
+  align-items:center;
+  flex-direction: column;
+}
+
+.student-register:hover{
+  background: #F26A7E;
+  color: #FFFFFF;
+  /* filter: brightness(7);  */
+  
+}
+
+.student-register:hover .studentimage{
+  filter: brightness(7);
+}
+
+.recruiter-register{
+  border: 2px solid #F26A7E;
+  border-radius: 10px;
+  height: 33%;
+  width: 70%;
+  margin: 10px;
+  display: flex;
+  padding-top: 10%;
+  /* justify-content: center; */
+  align-items:center;
+  flex-direction: column;
+}
+
+.recruiter-register:hover{
+  background: #F26A7E;
+  color: #FFFFFF;
+}
+
+.recruiter-register:hover .studentimage{
+  filter: brightness(7);
+}
+.bottomtext{
+  margin: 10px;
+}
+
+.leftvector{
+  position: absolute;
+  width: 449.76px;
+  height: 439px;
+  /* left: 1.5%; */
+  top: 26.8%;
+  
+  /* background: #F9BFC2; */
+  /* transform: rotate(-4.06deg); */
+  
+}
+
+.rightvector{
+  position: absolute;
+width: 251.93px;
+height: 245.9px;
+left: 75%;
+top: 1%;
+
+/* background: #F28F9E; */
+/* transform: rotate(-0.01deg); */
+
+}
+
+.toptext{
+  /* position: absolute; */
+/* width: 435px;
+height: 51px;
+left: 753px;
+top: 106px; */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 51px;
+color: #EC1F28;
+
+}
+
+.bottomtext{
+  /* position: absolute; */
+/* height: 17px;
+left: 59.65%;
+right: 24.93%;
+top: calc(50% - 17px/2 + 351.5px); */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: justify;
+
+color: #404366;
+
+}
+
+.secondtext{
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+margin-top: 15px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #404366;
+
+}
+
+.warnigtext{
+
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+margin-top: 10px;
+color: #EC1F28;
+margin-bottom: 40px;
+
+}
+.ortext{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #F26A7E;
+margin-left: 220px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.signin-block{
+  
+    width:55%;
+    /* height:100%; */
+    /* border: 1px solid black; */
+    background: #FFFFFF;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 4%;
+  
+}
+
+.toptext-signin{
+  /* position: absolute; */
+/* width: 435px;
+height: 51px;
+left: 753px;
+top: 106px; */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 56px;
+color: #EC1F28;
+
+}
+
+.sociallogos{
+  padding-top: 4%;
+}
+.email{
+  display: flex;
+  flex-direction: column  ;
+  justify-content: center;
+  width: 100%;
+  padding:  4% 0% 0 0 ;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.email input{
+  
+  border:none ;
+  border-bottom:  0.76489px solid #CDDBEA;
+  padding:  15px;
+
+}
+.email ::placeholder{
+  color:#CDDBEA;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+
+.password{
+  display: flex;
+  flex-direction: column  ;
+  justify-content: center;
+  width: 100%;
+  padding:  4% 0% 0 0 ;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.password input{
+
+  border:none ;
+  border-bottom:  0.76489px solid #CDDBEA;
+  padding:  15px
+}
+input:focus{
+  outline: none;
+}
+
+.password ::placeholder{
+  color:#CDDBEA;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+
+.signinbtn{
+  /* width: 100%; */
+  align-items: flex-start;
+  padding: 17px 35px;
+  
+  /* position: absolute;
+  width: 122px;
+  height: 53px;
+  left: 908px;
+  top: 662px; */
+  
+  border: 1px solid #F26A7E;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background: #FFFFFF;;
+}
+
+.signinbtn:hover{
+  color:#FAFAFA;
+  background-color:#F26A7E ;
+}
+
+
+.bottomtext-signin{
+  /* position: absolute; */
+/* height: 17px;
+left: 59.65%;
+right: 24.93%;
+top: calc(50% - 17px/2 + 351.5px); */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+padding-top: 3%;
+text-align: center;
+width: 100%;
+color: #404366;
+
+}
+
+.checkEmail{
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+margin-top:10px ;
+text-align: justify;
+color: #FDBFC8;
 }

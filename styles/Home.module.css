@@ -238,6 +238,18 @@ font-weight: normal;
 font-size: 14px;
 line-height: 17px;
 }
+.email{
+  display: flex;
+  flex-direction: column  ;
+  justify-content: center;
+  width: 100%;
+  padding:  4% 0% 0 0 ;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
